@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
-   main - main function
-Description: Print _putchar
-Return: 0
+/**
+ *main - main function
+ *Description: Print _putchar
+ *Return: 0
 */
 int main(void)
 {
