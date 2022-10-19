@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - main function
  * Description: Print _putchar
@@ -6,6 +6,15 @@
 */
 int main(void)
 {
-	printf("_putchar\n");
+	char _putchar[] = "_putchar";
+	int i = 0;
+
+	while (_putchar[i] != '\0')
+	{
+		_putchar(_putchar[i]);
+		i++;
+	}
+	_putchar('\n');
+
 	return (0);
 }
