@@ -1,8 +1,14 @@
 #include "main.h"
 /**
+<<<<<<< HEAD
  * main - main function
  * Description: Print _putchar
  * Return: 0
+=======
+ *main - main function
+ *Description: Print _putchar
+ *Return: 0
+>>>>>>> 2c1a1c659f152ed210be752191cda323f3508bad
 */
 int main(void)
 {
