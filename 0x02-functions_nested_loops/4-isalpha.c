@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * main - main function
  * Description: a function that checks for alphabetic character
