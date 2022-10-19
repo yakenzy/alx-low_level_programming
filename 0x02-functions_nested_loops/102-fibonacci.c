@@ -19,7 +19,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%lu, " j);
+			printf("%lu, ", j);
 		}
 
 		k = j;
