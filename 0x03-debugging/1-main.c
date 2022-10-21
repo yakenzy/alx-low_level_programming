@@ -4,7 +4,6 @@
  * main - causes an infinite loop
  * Return: 0
  */
-
 int main(void)
 {
 	int i;
@@ -15,7 +14,8 @@ int main(void)
 
 	while (i < 10)/* no increment after the loop */
 	{/* cause of the error */
-		putchar(i);/* no increment of i after the function */
+		putchar(i);/* error cause */
+		i++;/* no increment of i after the function */
 	} /* no increment as well */
 
 	printf("Infinite loop avoided! \\o/\n");
