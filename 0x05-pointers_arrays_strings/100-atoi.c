@@ -14,6 +14,9 @@ int _atoi(char *s)
 	p = -1;
 	for (i = 0; s[i] != '\0'; i++)
 	{
+		if (s[i] == '-')
+			p *= -1;
+
 		if (s[i] > 47 && s[i] < 58)
 		{
 			if (h < 0)
