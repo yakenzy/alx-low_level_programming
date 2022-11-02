@@ -11,7 +11,7 @@ int is_palindrome(char *s)
 
 	length = get_length(s) - 1;
 
-	return (my_pal(s, __lenghth));
+	return (my_pal(s, _length));
 }
 
 /**
