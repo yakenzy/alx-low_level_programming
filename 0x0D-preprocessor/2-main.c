@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
+
 /**
  * main - prints the name of the compiled file
- * @Return: always 0
+ * Return: always 0
  */
 
 int main(void)
